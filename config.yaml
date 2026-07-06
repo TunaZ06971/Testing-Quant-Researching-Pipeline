@@ -1,0 +1,16 @@
+futu:
+  host: "127.0.0.1"
+  port: 11111
+
+data:
+  start_date: "2000-01-01"
+  end_date: "2026-03-08"
+  pool_file: "Pool.md"
+  raw_csv_dir: "data/raw_csv"
+  qlib_csv_dir: "data/qlib_csv"
+  qlib_data_dir: "~/.qlib/qlib_data/futu_us"
+
+fetch:
+  delay_seconds: 3
+  max_retry: 3
+  page_size: 1000

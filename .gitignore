@@ -1,0 +1,43 @@
+# Runtime data and generated research artifacts
+data/
+*.bin
+*.pkl
+*.pickle
+*.parquet
+*.h5
+*.hdf5
+
+# Local qlib/Futu outputs
+qlib_data/
+fetch_progress.json
+instruments_info.json
+
+# Reference documents and large local notes
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
